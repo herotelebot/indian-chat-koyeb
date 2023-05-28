@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Indian Chat 🇮🇳</title>
+    <meta http-equiv="content-type" content="text/html"; charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.js" integrity="sha512-xbQU0+iHqhVt7VIXi6vBJKPh3IQBF5B84sSHdjKiSccyX/1ZI7Vnkt2/8y8uruj63/DVmCxfUNohPNruthTEQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <!-- <script src="{{url_for('static', filename='js/main.js')}}" type="text/javascript" charset="utf-8"></script> -->
+    <script src="static/js/main.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <div class="Header">
+      <div class="First-Letter Page-Title">I</div><div class="Page-Title">NDIAN CHAT ❤️</div>
+      <div class="CommentTt">EXPLORE YOURSELF WITH NEW FRIENDS......</div>
+    </div>
+
+    {% block content %}{% endblock %}
+
+    <div>
+      <div class="AboutFrnds">
+        <div class="TitleFrnds">❤️ FRIENDS FOREVER ❤️</div>
+        <div class="QuoteFrnds">“Truly great friends are hard to find, difficult to leave, and impossible to forget.”</div>
+      </div>
+    </div>
+    <div class="Footer">
+      <div class="WebMenu">
+        <div onclick="parent.location='home'" class="WebmenuItem">Home</div>
+        <div onclick="javascript:window.location.href='aboutus' " class="WebmenuItem">About Us</div>
+        <div onclick="javascript:window.location.href='chatpage' " class="WebmenuItem">Chat Page</div>
+        <div onclick="javascript:window.location.href='contact' " class="WebmenuItem">Contact</div>
+        <div onclick="javascript:window.location.href='privacypolicy' " class="WebmenuItem">Privacy & Policies</div>
+      </div>
+      <hr />
+      <div class="Copyright">
+        <span>
+          Made in ❤️ from 🇮🇳 | © Copyright @ 2023
+        </span>
+    </div>
+    <button onclick="myFunction()">Try it</button>
+  </body>
+
+</html>
