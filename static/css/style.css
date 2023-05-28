@@ -1,1 +1,223 @@
+body {
+    position: relative;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    }
+  
+  .Header{
+    width: auto;
+    background-image: url('../img/Background1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    /*
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    border-bottom-color: 2px solid black;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    text-overflow: ellipsis;
+    justify-content: center;
+    overflow: hidden;
+    white-space: nowrap;
+    */
+  }
+  .Page-Title{
+    padding-left: 5px;
+    color: #d11515df;
+    display: inline;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #f31b1b;
+    /*animation: TitleAnimate 3s infinite;*/
+  }
+  
+  @keyframes TitleAnimate{
+    0% {
+      color: green;
+    }
+    50% {
+      color: yellow;
+    }
+    100% {
+      color: violet;
+    }
+  }
+  
+  .First-Letter{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .CommentTt{
+    font-size: 17px;
+    color: white;
+    padding: 0px 0px 10px 20px;
+    text-decoration: underline;
+  }
+  
+  
+  .Footer{
+    background-color: #000000;
+    height: auto;
+  }
+  
+  .AboutFrnds{
+    padding: 0px 60px;
+  }
+  
+  .TitleFrnds{
+    padding: 5px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+    color: #b212c3;
+    text-shadow: 1px 1px 2px #fbfbfb;
+  }
+  
+  .QuoteFrnds{
+    color: #0e0e0ed9;
+    text-shadow: 1px 1px 2px #f31b1b;
+  }
+  
+  .WebMenu div{
+    display: inline-block;
+    border: 0.1px dotted black;
+    margin: 5px;
+    padding: 2px;
+  }
+  
+  .WebMenu div:hover{
+    font-weight: bold;
+    color: red;
+    border-top: 1px solid red;
+    border-bottom:1px solid red;
+  }
+  .WebMenu{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .Copyright{
+    text-align: center;
+    color: white;
+    padding: 10px;
+  }
+  
+  
+  .Content{
+    color: rgb(16, 1, 1);
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+  }
+  
+  .LOGOCHAT{
+    color: #b212c3;
+    font-size: 20px;
+    font: bold;
+    margin: 5px;
+    text-align: center;
+  }
+  #Login-Form{
+    margin: 2px;
+  }
+  .Contact-TitleA{
+    font-size: 17px;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid rgba(236, 235, 238, 0.444);
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .Contac-InnerText{
+    color: black;
+    font-size: 13px;
+    padding: 5px;
+  }
+
+
+
+/*-----------------------------*/
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.join {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.create-btn {
+  width: 100%;
+}
+
+.message-box {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  align-items: stretch;
+}
+
+.messages {
+  overflow-y: scroll;
+  flex: 1;
+  width: 100%;
+}
+
+.inputs {
+  padding: 10px;
+  display: flex;
+}
+
+h2 {
+  text-align: center;
+}
+
+#message {
+  flex: 1;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.muted {
+  font-size: 10px;
+  color: darkgray;
+}
+
+
+
+
 
